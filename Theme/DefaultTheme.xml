@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<theme>
+  <SparkThemeBase BaseType="">
+    <BackColor>White</BackColor>
+    <BorderColor>Transparent</BorderColor>
+    <ForeColor>Black</ForeColor>
+  </SparkThemeBase>
+  <SparkThemeEditBase BaseType="SparkThemeBase">
+    <MouseOverBackColor>Transparent</MouseOverBackColor>
+    <MouseDownBackColor>Transparent</MouseDownBackColor>
+    <SelectedBackColor>Transparent</SelectedBackColor>
+    <MouseOverBorderColor>Transparent</MouseOverBorderColor>
+    <MouseDownBorderColor>Transparent</MouseDownBorderColor>
+    <SelectedBorderColor>Transparent</SelectedBorderColor>
+    <DisabledBackColor>Control</DisabledBackColor>
+  </SparkThemeEditBase>
+  <SparkButtonTheme BaseType="SparkThemeEditBase,SparkThemeBase" />
+  <SparkCheckBoxTheme BaseType="SparkThemeEditBase,SparkThemeBase">
+    <TickColor>#1EB2EF</TickColor>
+    <IndeterminateBackColor>#2E7523</IndeterminateBackColor>
+  </SparkCheckBoxTheme>
+  <SparkComboBoxTheme BaseType="SparkThemeEditBase,SparkThemeBase">
+    <ButtonForeColor>#1EB2EF</ButtonForeColor>
+    <ButtonBackColor>LightGray</ButtonBackColor>
+  </SparkComboBoxTheme>
+  <SparkDataGridViewTheme BaseType="SparkThemeEditBase,SparkThemeBase">
+    <HeaderBackColor>Transparent</HeaderBackColor>
+    <HeaderForeColor>Black</HeaderForeColor>
+    <AlternatingBackColor>Transparent</AlternatingBackColor>
+  </SparkDataGridViewTheme>
+  <SparkDateTimePickerTheme BaseType="SparkThemeEditBase,SparkThemeBase">
+    <DateTimeSelectColor>Red</DateTimeSelectColor>
+  </SparkDateTimePickerTheme>
+  <SparkFormBaseTheme BaseType="SparkThemeBase">
+    <SparkTitleBarTheme BaseType="SparkThemeBase">
+      <BackColor>White</BackColor>
+      <TitleOverBackColor>#999999</TitleOverBackColor>
+      <TitleDownBackColor>#999999</TitleDownBackColor>
+    </SparkTitleBarTheme>
+  </SparkFormBaseTheme>
+  <SparkGroupBoxTheme BaseType="SparkThemeBase" />
+  <SparkNumberTheme BaseType="SparkThemeEditBase,SparkThemeBase" />
+  <SparkPanelTheme BaseType="SparkThemeBase" />
+  <SparkProgressTheme BaseType="SparkThemeEditBase,SparkThemeBase" />
+  <SparkRadioButtonTheme BaseType="SparkThemeEditBase,SparkThemeBase">
+    <OuterBorderWidth>2</OuterBorderWidth>
+    <InnerBorderWidth>1</InnerBorderWidth>
+    <CentreForeColor>#1EB2EF</CentreForeColor>
+  </SparkRadioButtonTheme>
+  <SparkTabControlCloseButtonTheme BaseType="SparkThemeBase">
+    <ForeColor>Transparent</ForeColor>
+    <BackColor>Transparent</BackColor>
+    <BorderColor>Transparent</BorderColor>
+    <CloseColor>#3C4043</CloseColor>
+    <MouseOverBackColor>Transparent</MouseOverBackColor>
+    <MouseOverCloseColor>#3C4043</MouseOverCloseColor>
+    <MouseOverBorderColor>Transparent</MouseOverBorderColor>
+  </SparkTabControlCloseButtonTheme>
+  <SparkTabControlTheme BaseType="SparkThemeEditBase,SparkThemeBase">
+    <DisabledBackColor></DisabledBackColor>
+    <SelectedBottomBorderColor>Transparent</SelectedBottomBorderColor>
+    <SparkTabControlCloseButtonTheme BaseType="SparkThemeBase">
+      <ForeColor>Transparent</ForeColor>
+      <BackColor>Transparent</BackColor>
+      <BorderColor>Transparent</BorderColor>
+      <CloseColor>#3C4043</CloseColor>
+      <MouseOverBackColor>Transparent</MouseOverBackColor>
+      <MouseOverCloseColor>#3C4043</MouseOverCloseColor>
+      <MouseOverBorderColor>Transparent</MouseOverBorderColor>
+    </SparkTabControlCloseButtonTheme>
+    <SparkTitleBarTheme BaseType="SparkThemeBase">
+      <BackColor>White</BackColor>
+      <TitleOverBackColor>#999999</TitleOverBackColor>
+      <TitleDownBackColor>#999999</TitleDownBackColor>
+    </SparkTitleBarTheme>
+  </SparkTabControlTheme>
+  <SparkTextBoxTheme BaseType="SparkThemeEditBase,SparkThemeBase" />
+  <SparkTitleBarTheme BaseType="SparkThemeBase">
+    <BackColor>White</BackColor>
+    <TitleOverBackColor>#999999</TitleOverBackColor>
+    <TitleDownBackColor>#999999</TitleDownBackColor>
+  </SparkTitleBarTheme>
+  <SparkToolStripTheme BaseType="SparkThemeEditBase,SparkThemeBase">
+    <BackColor1>#EEF7FC</BackColor1>
+    <BackColor2>#EEF7FC</BackColor2>
+    <ImageMarginBackColor>#E9EEEE</ImageMarginBackColor>
+  </SparkToolStripTheme>
+  <SparkTreeViewTheme BaseType="SparkThemeEditBase,SparkThemeBase">
+    <NodeSplitLineColor>Gray</NodeSplitLineColor>
+  </SparkTreeViewTheme>
+</theme>

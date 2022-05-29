@@ -1,0 +1,32 @@
+﻿using System.Windows.Forms;
+
+namespace SparkControls.Controls
+{
+	public delegate void SparkGridTreeExpandingEventHandler(object sender, SparkGridTreeExpandingEventArgs args);
+
+	public delegate void SparkGridTreeExpandedEventHandler(object sender, SparkGridTreeExpandedEventArgs args);
+
+	public delegate void SparkGridTreeCollapsingEventHandler(object sender, SparkGridTreeCollapsingEventArgs args);
+
+	public delegate void SparkGridTreeCollapsedEventHandler(object sender, SparkGridTreeCollapsedEventArgs args);
+
+	public delegate void SparkGridButtonClickEventHandler(DataGridViewButtonCell sender, SparkGridButtonClickEventArgs args);
+
+	public delegate void SparkGridCheckBoxStateChangedEventHandler(DataGridViewCheckBoxCell sender, SparkGridCheckBoxStateChangedEventArgs args);
+
+	public delegate void SparkGridComboBoxSelectChangedEventHandler(DataGridViewComboBoxCell sender, SparkGridComboBoxSelectChangedEventArgs args);
+
+	public delegate void SparkGridMultiComboBoxSelectChangedEventHandler(DataGridViewTextBoxCell sender, SparkGridMultiComboBoxSelectChangedEventArgs args);
+
+	public delegate void SparkGridTextBoxTextChangedEventHandler(DataGridViewTextBoxCell sender, SparkGridTextBoxTextChangedEventArgs args);
+
+	public delegate void SparkGridColorSelectChangedEventHandler(DataGridViewCell sender, SparkGridColorSelectChangedEventArgs args);
+
+	public delegate void SparkGridDateSelectChangedEventHandler(DataGridViewTextBoxCell sender, SparkGridDateSelectChangedEventArgs args);
+
+	public delegate void SparkGridHyperlinkClickEventHandler(DataGridViewLinkCell sender, SparkGridHyperlinkClickEventArgs args);
+
+	public delegate void SparkGridComboBoxDataGridSelectChangedEventHanlder(SparkDataGridComboBoxDataGridCell sender, SparkGridComboBoxDataGridSelectChangedEventArgs args);
+
+	public delegate void SparkGridMultiComboBoxDataGridSelectChangedEventHandler(SparkDataGridMultiComboBoxDataGridCell sender, SparkGridMultiComboBoxDataGridSelectChangedEventArgs args);
+}
